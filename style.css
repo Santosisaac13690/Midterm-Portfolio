@@ -7,8 +7,7 @@ body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
   font-weight: 100;
-  background-image: linear-gradient(140deg, #C1E1C1 0%, #7FFFD4 50%, #DFFF00 75%);
-  /* background-color: #ECFFDC; */
+  background-image: linear-gradient(140deg, #C1E1C1 0%, #7FFFD4 50%, #FFFF8F 75%);
   width: 100%;
 }
   
@@ -39,8 +38,8 @@ nav li a {
   
 .hover:hover {
   transition: 1s;
-  opacity: 80%;
-  color: #E4D00A
+  color: #FFBF00;
+  cursor: pointer;
 }
   
   /* footer css*/
@@ -82,8 +81,8 @@ footer ul li a {
   
 footer ul li a:hover {
   transition: 1s;
-  opacity: 80%;
-  color: #E4D00A;
+  color: #FFBF00;
+  cursor: pointer;
 }
 
 /* introduction page */
@@ -103,7 +102,7 @@ footer ul li a:hover {
 }
 
 img:hover {
-  opacity: 90%;
+  opacity: 85%;
 }
 
 .introFlex {
@@ -120,6 +119,7 @@ img:hover {
     width: 350px;
     color: #097969;
     font-size: 30px;
+    font-weight: 500;
 }
 
 /* PD assignments page */
@@ -137,7 +137,7 @@ img:hover {
     width: 574.23px;
     font-size: 30px;
     color: #097969;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 /* Tech assignment page */
@@ -165,7 +165,7 @@ iframe {
     margin: 25px 170px 0px 170px;
     font-size: 30px;
     color: #097969;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 /* Reflections page */
@@ -173,7 +173,7 @@ iframe {
 .pathIMG img {
   width: 300px;
   height: 300px;
-  border-radius: 50%;
+  border-radius: 15%;
 }
 
 .pathIMG {
@@ -199,5 +199,5 @@ section a {
 section a:hover {
   transition: 1s;
   opacity: 80%;
-  background-color: #E4D00A;
+  background-color: #FFBF00;
 }
