@@ -9,8 +9,7 @@ body {
   font-family: 'Poppins', sans-serif;
   font-weight: 100;
   background-image: linear-gradient(140deg, #C1E1C1 0%, #7FFFD4 50%, #FFFF8F 75%);
-  width: 100%;
-  height: 100%;
+  background-size: cover;
 }
   
 /* nav bar css */
@@ -40,7 +39,7 @@ nav li a {
   
 .hover:hover {
   transition: 1s;
-  color: #FFBF00;
+  opacity: 60%;
   cursor: pointer;
 }
   
@@ -90,7 +89,7 @@ footer ul li a:hover {
 /* introduction page */
 
 .title {
-  margin: 40px auto 20px auto;
+  margin: 80px auto 40px auto;
   padding: 10px;
   color: #097969;
   text-align: center;
@@ -108,7 +107,7 @@ img:hover {
 }
 
 .introFlex {
-  margin: 40px 0px 40px 0px;
+  margin: 80px 0px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -153,7 +152,7 @@ img:hover {
 
 iframe {
   width: 75%;
-  height: 500px;
+  height: 400px;
   margin-left: 12.5%;
   border: 5px solid #097969;
   border-radius: 20px;
@@ -165,7 +164,7 @@ iframe {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 25px;
+  margin: 50px 25px;
   font-size: 30px;
   color: #097969;
   font-weight: 400;
@@ -192,7 +191,7 @@ section a {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 70px 610px 60px 610px;
+  margin: 90px 610px 70px 610px;
   padding: 15px 0px;
   background-color: #097969;
   text-decoration: none;
